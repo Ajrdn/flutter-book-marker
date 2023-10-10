@@ -1,0 +1,77 @@
+name: bookmarker
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+2023090801
+
+environment:
+  sdk: '>=3.0.0-312.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  get: ^4.6.5
+
+  pull_to_refresh: ^2.0.0
+
+  flutter_svg: ^2.0.7
+
+  shared_preferences: ^2.2.1
+
+  dio: ^5.3.2
+
+  dartz: ^0.10.1
+
+  freezed_annotation: ^2.4.1
+
+  logger: ^2.0.2
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  flutter_launcher_icons: ^0.13.1
+
+  freezed: ^2.4.2
+
+  build_runner: ^2.4.6
+
+  json_serializable: ^6.7.1
+
+flutter_launcher_icons:
+  android: true
+
+  ios: true
+
+  image_path: 'assets/icons/book_marker_icon.png'
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family: SpoqaHanSansNeo-Bold
+      fonts:
+        - asset: assets/fonts/SpoqaHanSansNeo-Bold.otf
+    - family: SpoqaHanSansNeo-Light
+      fonts:
+        - asset: assets/fonts/SpoqaHanSansNeo-Light.otf
+    - family: SpoqaHanSansNeo-Medium
+      fonts:
+        - asset: assets/fonts/SpoqaHanSansNeo-Medium.otf
+    - family: SpoqaHanSansNeo-Regular
+      fonts:
+        - asset: assets/fonts/SpoqaHanSansNeo-Regular.otf
+    - family: SpoqaHanSansNeo-Thin
+      fonts:
+        - asset: assets/fonts/SpoqaHanSansNeo-Thin.otf
